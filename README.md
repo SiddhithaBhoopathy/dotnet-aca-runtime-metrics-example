@@ -4,8 +4,7 @@ Minimal .NET 10 example using Datadog serverless-init inside the application
 container. The same application is deployed twice to compare serverless-init
 1.9.6 and 1.9.15.
 
-Both variants emit `runtime.dotnet.*` metrics through DogStatsD UDP on
-`127.0.0.1:8125`.
+Both variants emit `runtime.dotnet.*` metrics.
 
 ## Topology
 
